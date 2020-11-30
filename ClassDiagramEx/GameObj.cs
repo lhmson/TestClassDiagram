@@ -15,10 +15,6 @@ namespace ClassDiagramEx
 
         public int vY;
 
-        DIRECTION dir;
-
-        public event EventHandler KeyDown;
-
         virtual public void Update()
         {
 

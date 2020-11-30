@@ -9,4 +9,5 @@ namespace ClassDiagramEx
     {
         LEFT, RIGHT, UP, DOWN
     }
+
 }

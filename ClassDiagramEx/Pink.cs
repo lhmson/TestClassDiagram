@@ -2,5 +2,9 @@
 {
     public class Pinky : Enemy
     {
+        override public void Chase()
+        {
+
+        }
     }
 }

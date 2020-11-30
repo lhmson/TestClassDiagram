@@ -5,11 +5,14 @@ using System.Text;
 
 namespace ClassDiagramEx
 {
-    public class Blinky : Enemy
+    public class Map
     {
-        override public void Chase()
+        public List<Wall> Walls
         {
-
+            get => default;
+            set
+            {
+            }
         }
     }
 }

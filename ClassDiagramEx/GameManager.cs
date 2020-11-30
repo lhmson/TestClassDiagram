@@ -7,5 +7,8 @@ namespace ClassDiagramEx
 {
     public class GameManager
     {
+        public int level;
+
+        public bool overgame;
     }
 }

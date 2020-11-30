@@ -5,7 +5,13 @@ using System.Text;
 
 namespace ClassDiagramEx
 {
-    public class Fruit : IEat
+    public class Fruit : GameObj, IEat
     {
+        public int Point { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public void Effect()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

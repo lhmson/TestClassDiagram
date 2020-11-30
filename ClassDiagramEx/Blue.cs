@@ -7,5 +7,9 @@ namespace ClassDiagramEx
 {
     public class Inky : Enemy
     {
+        override public void Chase()
+        {
+
+        }
     }
 }

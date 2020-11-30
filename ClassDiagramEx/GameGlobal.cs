@@ -7,5 +7,8 @@ namespace ClassDiagramEx
 {
     public class GameGlobal
     {
+        public int lives;
+
+        public int points;
     }
 }

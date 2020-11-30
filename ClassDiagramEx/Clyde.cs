@@ -7,5 +7,9 @@ namespace ClassDiagramEx
 {
     public class Clyde : Enemy
     {
+        override public void Chase()
+        {
+
+        }
     }
 }

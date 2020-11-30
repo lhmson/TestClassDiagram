@@ -7,5 +7,12 @@ namespace ClassDiagramEx
 {
     public class Wall
     {
+        public int posLeft;
+
+        public int posRight;
+
+        public int posUp;
+
+        public int posBot;
     }
 }

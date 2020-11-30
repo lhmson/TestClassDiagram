@@ -7,5 +7,8 @@ namespace ClassDiagramEx
 {
     public interface IEat
     {
+        int Point { get; set; }
+
+        void Effect();
     }
 }

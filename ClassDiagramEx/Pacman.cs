@@ -7,5 +7,20 @@ namespace ClassDiagramEx
 {
     public class Pacman : GameObj
     {
+        public int isDead;
+
+        public DIRECTION dir;
+
+        public event EventHandler KeyDown;
+
+        override public void Update()
+        {
+            
+        }
+
+        override public void Render()
+        {
+
+        }
     }
 }

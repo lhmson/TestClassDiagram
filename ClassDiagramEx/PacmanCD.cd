@@ -1,111 +1,129 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ClassDiagramEx.Pacman">
-    <Position X="1" Y="7" Width="1.5" />
+    <Position X="1" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAAAAAACAAgAAAAAAAAAAAABAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>Pacman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.Enemy">
-    <Position X="3.75" Y="7" Width="1.5" />
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="ClassDiagramEx.GameObj" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="5.324" />
+        <Point X="3.25" Y="5.875" />
+        <Point X="4.438" Y="5.875" />
+        <Point X="4.438" Y="6.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>Enemy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.GameObj">
-    <Position X="2.5" Y="3.25" Width="1.5" />
+    <Position X="2.5" Y="3" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAQAAAAAACAAgAAQAAAAAAAAAAAAAAAAAhAAwAAAAAA=</HashCode>
+      <HashCode>AAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAhAAwAAAAAA=</HashCode>
       <FileName>GameObj.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.GameManager">
-    <Position X="2" Y="1.75" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GameManager.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClassDiagramEx.GameGlobal">
-    <Position X="3.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GameGlobal.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ClassDiagramEx.Wall">
-    <Position X="6.25" Y="1.75" Width="1.5" />
+    <Position X="5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQE=</HashCode>
       <FileName>Wall.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.PowerUp">
-    <Position X="5.5" Y="6" Width="1.5" />
+    <Position X="6.25" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PowerUp.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ClassDiagramEx.Fruit">
-    <Position X="7.25" Y="6" Width="1.5" />
+    <Position X="8" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Fruit.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ClassDiagramEx.Food">
-    <Position X="9" Y="6" Width="1.5" />
+    <Position X="9.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Point.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ClassDiagramEx.Blinky">
-    <Position X="1.25" Y="8.5" Width="1.5" />
+    <Position X="0.5" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Red.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.Inky">
-    <Position X="3" Y="8.5" Width="1.5" />
+    <Position X="2.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Blue.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.Pinky">
-    <Position X="4.75" Y="8.5" Width="1.5" />
+    <Position X="4.75" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pink.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClassDiagramEx.Clyde">
-    <Position X="6.5" Y="8.5" Width="1.5" />
+    <Position X="6.5" Y="9.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Clyde.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="ClassDiagramEx.IEat">
-    <Position X="8.25" Y="4.25" Width="1.5" />
+  <Class Name="ClassDiagramEx.GameGlobal">
+    <Position X="2.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameGlobal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassDiagramEx.Map">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Walls" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="ClassDiagramEx.IEat">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IEat.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="ClassDiagramEx.DIRECTION">
-    <Position X="4.75" Y="3.5" Width="1.5" />
+    <Position X="8.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
       <FileName>DIRECTION.cs</FileName>
